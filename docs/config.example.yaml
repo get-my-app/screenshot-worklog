@@ -1,0 +1,9 @@
+recognition:
+  mode: configurable_region
+  region: {x: 120, y: 80, width: 400, height: 120}
+  fallback_agent: true
+storage:
+  current: jsonl
+  future: sqlite
+reports:
+  default_period: week
